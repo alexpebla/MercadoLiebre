@@ -1,0 +1,835 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body nav {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+* {
+    font-family: "roboto";
+}
+
+
+/*-- INICIO HEADER--*/
+header {
+    background-color: #EAC926;
+    background-size: cover;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 10px;
+}
+
+.imgMercado {
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.burguer i {
+    background-color: #1259c3;
+    border-radius: 8px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+    max-width: 40px;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.main-nav a {
+    color: black;
+    display: inline-block;
+    padding: 5px 0px;
+    text-decoration: none;
+
+}
+
+.lupa {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 3px;
+}
+
+
+#fname {
+    color: #666;
+    border: white solid 1px;
+}
+
+.formulario {
+    display: flex;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-bottom: -29px;
+    padding: 25px;
+    width: 50%;
+}
+
+#fname {
+    display: flex;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.compra {
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-top: auto;
+    padding: 1px;
+}
+
+.img-form {
+    display: flex;
+    flex: wrap;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.iconMenu {
+    color: black;
+    margin: 3px;
+}
+
+
+/*-- FIN HEADER--*/
+
+
+/*-- INICIO MAIN INDEX--*/
+.main-index h2 {
+    font-size: 18px;
+}
+
+.precio {
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+.descuento {
+    color: #39b54a;
+    font-size: 16px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+.main-index h3 {
+    color: #666;
+    font-size: 16px;
+    padding-top: 15px;
+    text-align: left;
+    
+}
+
+.product {
+    transition: all 0.8s;
+}
+
+
+
+.main-index h2 {
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3c3a3a;
+}
+
+.main-index {
+    background-color: #ebebeb;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.product img {
+    border-bottom: 1px solid #ebebeb;
+    width: 100%;
+
+}
+
+.main-index article {
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    
+    
+}
+
+.main-index article:hover .truck i{
+   transition: 2s;
+    transform: rotatez(-90deg);
+}
+.main-index article:hover{
+    box-shadow: 1px 1px 15px grey;
+}
+
+
+.truck i {
+    border: 1px solid #39b54a;
+    border-radius: 50ch;
+    color: #39b54a;
+    padding: 15px;
+    
+
+}
+
+
+.truck {
+    margin: 1px;
+    text-align: right;
+}
+
+.prec-desc {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.prec-desc .precio {
+    width: 30%;
+}
+
+.prec-desc .descuento {
+    padding-left: 15px;
+    width: 70%;
+
+}
+
+.section-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.product {
+    width: 100%;
+}
+
+/*-- FIN MAIN INDEX  --*/
+
+/*-- INICIO MAIN REGISTRO --*/
+
+
+
+.form-Reg {
+    background-color: #ebebeb;
+    margin-right: auto;
+    margin: 20px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 65%;
+
+}
+
+.form__nombre {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+
+}
+
+.form__nombre label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.form__nombre input {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    width: 85%;
+
+}
+
+
+.form__usuario {
+    margin-bottom: 20px;
+
+}
+
+.form__usuario input {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    width: 85%;
+
+}
+
+.form__usuario label {
+
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.form__fecha input {
+    border-radius: 7px;
+    border: none;
+    color: #9a9a9a;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 85%;
+}
+
+
+.form__fecha label {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+
+
+
+}
+
+.form__domicilio {
+    margin-bottom: 20px;
+}
+
+.form__domicilio input {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    width: 85%;
+
+}
+
+.form__domicilio label {
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+.form__interes label {
+    display: block;
+    width: 100%;
+
+
+}
+
+.form__perfil__title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.compr-vend {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.form-check-compr {
+    padding-left: 10px;
+
+
+
+}
+
+.form-check-compr label {
+    margin-left: 20px;
+
+}
+
+.form__interes__check {
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.form__interes__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.form__imagen {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.form__imagen input {
+    margin-top: 10px;
+}
+
+.form__password input {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 85%;
+}
+
+.form__password__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.form__confirm input {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 85%;
+
+}
+
+.form__confirm__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+
+.form__button {
+
+    background-color: #1259c3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.contenedor_button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-Reg input:hover {
+    box-shadow: 0 0 5px 0 #095484;
+}
+
+.form-Reg input {
+    outline: none;
+}
+
+.form-Reg label:hover {
+    color: #095484;
+}
+
+.form__button:hover {
+    background-color: #0666a3;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.form-Reg input[type="text"]:focus:required:valid {
+    border: 2px solid green;
+}
+
+.form-Reg input[type="text"]:required:invalid {
+    border: 2px solid red;
+}
+
+.form-reg input[type="date"]:focus:required:valid {
+    border: 2px solid green;
+
+}
+
+.form-reg input[type="date"]:required:invalid {
+    border: 2px solid red;
+
+}
+
+
+/*--FIN MAINREGISTRO--*/
+
+
+/*--INICIO MAIN LOGIN--*/
+
+.button-login {
+    background-color: #1259c3;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    max-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: all 0.4s;
+    width: 90%;
+
+
+}
+
+.usuario {
+
+    text-align: center;
+
+}
+
+.section-login__button {
+
+    text-align: center;
+}
+
+.section-login {
+    background-color: #ebebeb;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.usuario__nombre input {
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 300px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 90%;
+
+}
+
+.usuario__pass input {
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 5px;
+    width: 90%;
+
+}
+
+.form-login input:hover {
+
+    box-shadow: 0 0 5px 0 #095484;
+
+}
+
+.form-login input {
+    outline: none;
+}
+
+.form-login label:hover {
+    color: #095484;
+
+}
+
+
+.button-login:hover {
+    background-color: #0022AA;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.form-login input[type="text"]:focus:required:valid {
+    border: 2px solid green;
+}
+
+.form-login input[type="text"]:required:invalid {
+    border: 2px solid red;
+}
+
+/*--FIN MAIN LOGIN--*/
+
+
+/*-- INICIO FOOTER--*/
+.iconFooter {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    font-family: "Roboto";
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.section-paga__p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.footer h2 {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.copy {
+    font-size: 15px;
+    padding-left: 1px;
+    text-align: left;
+}
+.section-paga .iconFooter i{
+    transition: all 0.8s;
+}
+.section-paga:hover .iconFooter i{
+    color: #39b54a;
+    transform: scale(1.2);
+}
+.section-envio .iconFooter i{
+    transition: all 0.8s;
+}
+.section-envio:hover .iconFooter i{
+    color: #39b54a;
+    transform: scale(1.2);
+}
+.section-seg .iconFooter i{
+    transition: all 0.8s;
+}
+.section-seg:hover .iconFooter i{
+   color: #39b54a;
+    transform: scale(1.2);
+}
+
+
+/*-- FIN FOOTER--*/
+
+/*-- INICIO MEDIA QUERI 361 576--*/
+
+@media (min-width: 361px) {
+
+   
+    body nav {
+        display: block;
+    }
+
+    .main-index h3 {
+
+        display: block;
+
+    }
+
+    .burguer {
+        display: none;
+    }
+
+    /*-- FIN MEDIA QUERI 361 576--*/
+    /*-- INICIO MEDIA QUERI 576 769--*/
+
+    @media(min-width: 576px) {
+
+        .compra {
+
+            text-align: center;
+        }
+
+        .main-nav {
+
+            text-align: center;
+
+        }
+
+    }
+
+    /*-- FIN MEDIA QUERI 576 769--*/
+
+    /*-- INICIO MEDIA QUERI 769  992--*/
+
+}
+
+@media(min-width: 769px) {
+
+    .imgMercado {
+        width: 180px;
+    }
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .compra {
+        font-size: 25px;
+        margin-top: auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: right;
+
+    }
+
+    .top-bar h2 {
+        margin-left: -150px;
+        padding-left: 0px;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav ul {
+        display: flex;
+        font-size: 18px;
+    }
+
+    .main-nav li {
+        margin: 0 4px
+    }
+
+    .main-index h3 {
+        display: block;
+    }
+
+    .burguer {
+        display: none;
+    }
+    .product {
+        width: 44%;
+    }
+
+    .cont-footer{
+        display: flex;
+    
+    }
+
+
+}
+
+/*-- FIN MEDIA QUERI 768 992--*/
+
+/*-- INICIO MEDIA QUERI 992 INFINITO--*/
+@media (min-width: 992px) {
+
+    .main-nav {
+        max-width: 1200px;
+
+        margin: auto;
+    }
+
+    .main-nav li {
+        font-size: 19px;
+    }
+
+    .compra {
+        padding-left: 0%;
+        width: 50%;
+        
+    }
+
+
+    .product {
+        width: 22%;
+
+    }
+
+    .section-product {
+
+        border-bottom: solid 1px grey;
+    }
+
+    .main-index article {
+        border-bottom: none;
+        
+    }
+
+    .product h3{
+        display: none;
+        
+        
+    }
+
+    .product:hover h3 {
+        display: block;
+        transition: all 5s;  
+    }
+
+
+}
+
+/*-- FIN MEDIA QUERI 992 INFINITO--*/
